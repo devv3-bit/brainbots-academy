@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200" role="img" aria-label="Student learning curve: skill proficiency index rising from 35 in week one to 84 in week six">
+  <rect width="900" height="1200" fill="#0a1f4e"/>
+  <text x="80" y="110" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Student learning curve</text>
+  <text x="80" y="156" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#b9cff3">Skill proficiency index, 0 to 100, Program 1, 2025</text>
+  <!-- plot area: x 140..820, y 240..1020 -->
+  <g stroke="#2d4a85" stroke-width="1.5">
+    <line x1="140" y1="1020" x2="820" y2="1020"/><line x1="140" y1="864" x2="820" y2="864"/><line x1="140" y1="708" x2="820" y2="708"/><line x1="140" y1="552" x2="820" y2="552"/><line x1="140" y1="396" x2="820" y2="396"/><line x1="140" y1="240" x2="820" y2="240"/>
+  </g>
+  <g stroke="#dbe7fb" stroke-width="2.5"><line x1="140" y1="240" x2="140" y2="1020"/><line x1="140" y1="1020" x2="820" y2="1020"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#dbe7fb" text-anchor="end">
+    <text x="122" y="1028">0</text><text x="122" y="872">20</text><text x="122" y="716">40</text><text x="122" y="560">60</text><text x="122" y="404">80</text><text x="122" y="248">100</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#dbe7fb" text-anchor="middle">
+    <text x="200" y="1062">1</text><text x="312" y="1062">2</text><text x="424" y="1062">3</text><text x="536" y="1062">4</text><text x="648" y="1062">5</text><text x="760" y="1062">6</text>
+  </g>
+  <text x="480" y="1110" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#b9cff3">Program week</text>
+  <text x="48" y="630" text-anchor="middle" transform="rotate(-90 48 630)" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#b9cff3">Skill proficiency index</text>
+  <!-- data: 35, 42, 50, 58, 67, 84 on a 780px tall axis (7.8px per point) -->
+  <polyline fill="none" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" points="200,747 312,692.4 424,630 536,567.6 648,497.4 760,364.8"/>
+  <g fill="#ffffff" stroke="#0a1f4e" stroke-width="3">
+    <circle cx="200" cy="747" r="9"/><circle cx="312" cy="692.4" r="9"/><circle cx="424" cy="630" r="9"/><circle cx="536" cy="567.6" r="9"/><circle cx="648" cy="497.4" r="9"/><circle cx="760" cy="364.8" r="9"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#8fbcff" text-anchor="middle">
+    <text x="200" y="782">35</text><text x="312" y="727">42</text><text x="424" y="665">50</text><text x="536" y="603">58</text><text x="648" y="533">67</text><text x="760" y="340">84</text>
+  </g>
+  <text x="80" y="1166" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#b9cff3">Diagnostic test in week 1, final test in week 6</text>
+</svg>
