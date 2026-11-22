@@ -6,7 +6,7 @@ One-page site for BrainBots Academy (student-led non-profit, Indore) built on th
 - Every `id`, `data-8b-section`, `data-8b-motion`, `data-8b-part`, `data-8b-items`, `data-8b-fixed` and `data-8b-enter` attribute: the CSS scroll scenes and the inline motion kit read them.
 - Fixed counts: fifteen entries in the learning tree (`#case`, client first then two children per entry), four steps in `#method`, two cards in `#people` (their start offsets are inline variables that make the two stamps begin as one joined block).
 - Selectors the scripts use: `.tabs__tab`, `.case__chart`, `.case__person`, `.case__dot`, `.letters__track`, `.contact__form`, `.contact__status`, `.contact__copy`, `.archives__frame`, `.archives__ledger`, `.archives__name`, `.method__slips`, `.fees__body`, `.fees__item`, `.fees__name`, `.fees__amount`.
-- The header comment, `<meta name="generator">` and the "Design: 8B" footer link (template licence courtesy).
+- The header comment, `<meta name="generator">` and the LICENSE file: that is what the template's MIT licence asks for. The visible "Design: 8B" footer link was removed at the owner's request.
 
 ## Facts on the page (from BrainBots' own documents, not invented)
 - Student-led non-profit, Indore, Madhya Pradesh; co-founded by Dev Hemnani and Arham Sethi (the whole team: two people); teaches students aged 12 to 19; free of charge.

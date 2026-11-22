@@ -547,8 +547,8 @@ textarea.m-field__control { min-height: 110px; resize: vertical; }
 #footer .footer__cols { display: grid; gap: 28px; }
 #footer .footer__brand { display: grid; gap: 10px; max-width: 24em; }
 #footer .footer__nav ul { display: grid; gap: 6px; justify-items: start; }
-#footer .footer__press { position: relative; overflow: hidden; margin: 0 -8px; }
-#footer .footer__word { --footer-rake: 1; --footer-depth: 1; position: relative; z-index: 1; display: block; padding: 0 2%; color: var(--color-6); font-family: var(--font-2); font-size: clamp(96px, 24vw, 250px); font-weight: 400; line-height: 1.12; white-space: nowrap; user-select: none; text-shadow: calc(var(--footer-rake) * var(--footer-depth) * -1px) calc(var(--footer-depth) * -1px) calc(var(--footer-depth) * .6px) color-mix(in srgb, var(--color-2) 26%, transparent), calc(var(--footer-rake) * var(--footer-depth) * 1.2px) calc(var(--footer-depth) * 1.4px) calc(var(--footer-depth) * 1px) var(--color-1); }
+#footer .footer__press { position: relative; overflow: hidden; margin: 0 -8px; padding: 10px 0 6px; }
+#footer .footer__word { --footer-rake: 1; --footer-depth: 1; position: relative; z-index: 1; display: block; padding: .08em 1% 0; color: color-mix(in srgb, var(--color-3) 36%, var(--color-1)); font-family: var(--font-1); font-size: clamp(52px, 15.4vw, 150px); font-weight: 800; line-height: 1; letter-spacing: -.045em; text-transform: uppercase; text-align: center; white-space: nowrap; user-select: none; text-shadow: calc(var(--footer-rake) * var(--footer-depth) * -1px) calc(var(--footer-depth) * -1px) calc(var(--footer-depth) * .6px) color-mix(in srgb, var(--color-2) 26%, transparent), calc(var(--footer-rake) * var(--footer-depth) * 1.2px) calc(var(--footer-depth) * 1.4px) calc(var(--footer-depth) * 1px) var(--color-1); }
 #footer .footer__light { position: absolute; top: -10%; bottom: -10%; left: 0; width: 46%; z-index: 0; background: radial-gradient(closest-side, color-mix(in srgb, var(--color-2) 16%, transparent), transparent); pointer-events: none; transform: translateX(110%); }
 #footer .footer__small { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px; }
 @media (min-width: 900px) {
@@ -1062,7 +1062,7 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
     </div>
   </section>
 </main>
-<!-- footer: name and note, two link columns, a huge pressed word and the copyright line with the Design: 8B credit (animation: scene:footer-press) -->
+<!-- footer: name and note, two link columns, a huge pressed BRAINBOTS wordmark and the copyright line (animation: scene:footer-press) -->
 <footer id="footer" data-8b-section="footer">
   <div class="footer__inner l-sheet">
     <div class="footer__cols">
@@ -1088,10 +1088,10 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
       </nav>
     </div>
     <div class="footer__press" aria-hidden="true">
-      <span class="footer__word">Spark</span>
+      <span class="footer__word">BrainBots</span>
       <span class="footer__light"></span>
     </div>
-    <p class="footer__small m-text-3"><span>&copy; 2026 BrainBots Academy, Indore · Design: <a href="https://8b.com/" style="color:inherit" data-8b-credit>8B</a></span><span><a href="https://www.instagram.com/brainbotsacademyy/" style="color:inherit">@brainbotsacademyy</a></span></p>
+    <p class="footer__small m-text-3"><span>&copy; 2026 BrainBots Academy, Indore</span><span><a href="https://www.instagram.com/brainbotsacademyy/" style="color:inherit">@brainbotsacademyy</a></span></p>
   </div>
 </footer>
 
