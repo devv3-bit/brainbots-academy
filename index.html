@@ -739,6 +739,8 @@ textarea.m-field__control { min-height: 110px; resize: vertical; }
 #contact .contact__row dd .m-text { overflow-wrap: anywhere; }
 /* the chart must never be cropped: the frame keeps the chart's own 3:4 ratio on wide screens instead of a fixed height */
 @media (min-width: 900px) { #archives .archives__frame { height: auto; aspect-ratio: 3 / 4; } }
+/* on phones the four tree columns are narrow: let long module names break instead of pushing the chart past the sheet edge */
+@media (max-width: 899px) { #case .case__name, #case .case__meta { overflow-wrap: anywhere; hyphens: auto; } #case .case__chart { column-gap: 6px; } }
 }
 </style>
 <script data-8b-part="motion-gate">
@@ -909,10 +911,10 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
             <li class="case__person case__person--g2"><span class="case__dot"></span><span class="case__name m-text-6">AI and prompting</span><span class="case__meta m-text-3">Weeks 2 to 3</span></li>
             <li class="case__person case__person--g2"><span class="case__dot"></span><span class="case__name m-text-6">AI tools and design</span><span class="case__meta m-text-3">Week 4</span></li>
             <li class="case__person case__person--g2"><span class="case__dot"></span><span class="case__name m-text-6">Python</span><span class="case__meta m-text-3">Weeks 5 to 6</span></li>
-            <li class="case__person case__person--g3"><span class="case__dot"></span><span class="case__name m-text-6">Spotting cyber fraud</span><span class="case__meta m-text-3">Kinds of fraud</span></li>
+            <li class="case__person case__person--g3"><span class="case__dot"></span><span class="case__name m-text-6">Spotting fraud</span><span class="case__meta m-text-3">Kinds of fraud</span></li>
             <li class="case__person case__person--g3"><span class="case__dot"></span><span class="case__name m-text-6">Safe links</span><span class="case__meta m-text-3">A security extension</span></li>
-            <li class="case__person case__person--g3"><span class="case__dot"></span><span class="case__name m-text-6">How a neural net learns</span><span class="case__meta m-text-3">Intro to AI</span></li>
-            <li class="case__person case__person--g3"><span class="case__dot"></span><span class="case__name m-text-6">Writing a clear prompt</span><span class="case__meta m-text-3">Prompt engineering</span></li>
+            <li class="case__person case__person--g3"><span class="case__dot"></span><span class="case__name m-text-6">How AI learns</span><span class="case__meta m-text-3">Intro to AI</span></li>
+            <li class="case__person case__person--g3"><span class="case__dot"></span><span class="case__name m-text-6">A clear prompt</span><span class="case__meta m-text-3">Prompt engineering</span></li>
             <li class="case__person case__person--g3"><span class="case__dot"></span><span class="case__name m-text-6">Canva and AutoDraw</span><span class="case__meta m-text-3">Posters and graphics</span></li>
             <li class="case__person case__person--g3"><span class="case__dot"></span><span class="case__name m-text-6">A portfolio</span><span class="case__meta m-text-3">On Behance</span></li>
             <li class="case__person case__person--g3 is-open"><span class="case__dot"></span><span class="case__open m-text-4">next: loops and lists</span></li>
