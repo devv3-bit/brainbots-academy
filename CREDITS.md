@@ -15,5 +15,6 @@ Loaded from Google Fonts: **Reddit Sans** (all running text) and **Playwrite US 
 - `assets/logo.png` and `assets/favicon.png`: the BrainBots Academy logo, owned by BrainBots Academy.
 - `assets/learning-curve.svg`: drawn for this site from BrainBots Academy's own Program 1 data.
 - `assets/placeholder.svg`: drawn for this site; stands in until real photos are added.
+- `assets/arham.jpg`: photo of Arham Sethi, supplied by BrainBots Academy.
 
 No stock photos are used.
