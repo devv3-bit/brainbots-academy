@@ -737,6 +737,8 @@ textarea.m-field__control { min-height: 110px; resize: vertical; }
 #letters .letters__score { font-family: var(--font-1); font-size: clamp(40px, 5vw, 56px); font-weight: 800; line-height: 1; letter-spacing: -.04em; }
 #letters .letters__score small { margin-left: .35em; font-size: .36em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; vertical-align: .95em; color: var(--color-7); }
 #contact .contact__row dd .m-text { overflow-wrap: anywhere; }
+/* the chart must never be cropped: the frame keeps the chart's own 3:4 ratio on wide screens instead of a fixed height */
+@media (min-width: 900px) { #archives .archives__frame { height: auto; aspect-ratio: 3 / 4; } }
 }
 </style>
 <script data-8b-part="motion-gate">
