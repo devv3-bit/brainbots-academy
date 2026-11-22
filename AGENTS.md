@@ -10,7 +10,7 @@ One-page site for BrainBots Academy (student-led non-profit, Indore) built on th
 
 ## Facts on the page (from BrainBots' own documents, not invented)
 - Student-led non-profit, Indore, Madhya Pradesh; co-founded by Dev Hemnani and Arham Sethi (the whole team: two people); teaches students aged 12 to 19; free of charge.
-- 40+ sessions, 80+ students, 3+ NGO partners (BrainBots linktree, December 2025). Named partners: AAS Foundation and FTS Yuva (confirmed by the founders).
+- 50+ sessions, 550+ students, 3+ NGO partners (founders, November 2026). Named partners: AAS Foundation and FTS Yuva (confirmed by the founders).
 - Program 1, spring 2025, about 30 students: Cybersecurity 4/10 to 8/10, Introduction to AI 1/10 to 9/10, Prompt engineering 4/10 to 8/10, AI tools for daily life 2/10 to 10/10, Introduction to programming 1/10 to 9/10 (knowledge level before and after). Test papers are set in Hindi and English.
 - Learning curve: skill proficiency index 35, 42, 50, 58, 67, 84 over weeks 1 to 6.
 - Instagram @brainbotsacademyy, LinkedIn /company/brainbots-academy, sign-up Google Form (see the Join button).

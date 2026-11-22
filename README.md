@@ -39,7 +39,7 @@ Photo slots, in page order: one classroom photo on the Home sheet, one per tab i
 
 - The email address in Write to us (`hello@brainbotsacademy.example`), marked `data-8b-placeholder="email"`.
 - The form shows a thank-you line but sends nothing. To receive messages, connect Formspree (set the form's `action` to your Formspree URL) or link the Join button to the existing Google Form.
-- The numbers on the Home sheet (sessions, students, partners) are from December 2025; bump them as the work grows.
+- The numbers on the Home sheet (50+ sessions, 550+ students, 3+ partners) were set by the founders in November 2026; bump them as the work grows.
 
 ## Running locally
 
