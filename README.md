@@ -31,7 +31,7 @@ Open `index.html` and change the text in place. Each section is marked with a co
 ### Adding photos
 
 1. Put the image in `assets/` (JPG or PNG, about 1600px on the long side is plenty).
-2. Find the `<img src="assets/placeholder.svg" ...>` you want to replace and point `src` at your file. Update `alt` and the `width`/`height` attributes to the image's ratio.
+2. Find the `<img>` in the slot you want to change and point `src` at your file. Update `alt` and the `width`/`height` attributes to the image's ratio. Originals of the current photos are kept one level up in `photos/`.
 
 Photo slots, in page order: one classroom photo on the Home sheet, one per tab in What we teach (four), two portraits in Mentors, one wide room photo in Where we teach.
 
